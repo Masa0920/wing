@@ -1,0 +1,37 @@
+.ITT {
+   width: 200px;
+   border: solid 2px black;
+   border-radius: 20px;
+}
+// 文字の色指定用
+.blue {
+  color: #007cc5;
+}
+.green {
+  color: green;
+}
+.white {
+  color: white;
+}
+// 背景色指定用
+.back-blue {
+  background-color: #007cc5;
+}
+.back-skyblue {
+  background-color: #b5dff7;
+}
+.back-grey {
+  background-color: #f5f5f5;
+}
+.back-grey2 {
+  background-color: silver;
+}
+.back-white {
+  background-color: white;
+}
+.back-green {
+  background-color: green;
+}
+.back-greenyellow {
+  background-color: greenyellow;
+}

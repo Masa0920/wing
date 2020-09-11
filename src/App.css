@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+/* 骨格用 */
+.flexwrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.content {
+  width: 90%;
+  max-width: 800px;
+  margin: 20px auto;
+}
+.w45 {
+  width: 45%;
+}
+.blank {
+  height: 50px;
+}
