@@ -1,6 +1,111 @@
+/* width */
+.w50 {
+   display: inline-block;
+   width: 50px;
+   margin: 0 auto;
+}
+.w100 {
+   display: inline-block;
+   width: 100px;
+   margin: 0 auto;
+}
+.w300 {
+display: inline-block;
+width: 300px;
+margin: 0 auto;
+}
+.w400 {
+display: inline-block;
+width: 400px;
+margin: 0 auto;
+}
+.w500 {
+display: inline-block;
+width: 500px;
+margin: 0 auto;
+}
+/* padding */
+.padding5 {
+padding: 5px;
+}
+.padding10 {
+padding: 10px;
+}
+.padding20 {
+padding: 20px;
+}
+.padding1020 {
+   padding: 10px 20px;
+}
+/* margin */
+.margin5 {
+margin: 5px;
+}
+.margin05 {
+margin: 0 5px;
+}
+.margin10 {
+margin: 10px;
+}
+/* 背景設定用 */
+.back-grey {
+background-color: rgb(240, 240, 240);
+}
+.back-white {
+background-color: white;
+}
+/* border */
+.border {
+   border: solid 2px black;
+   border-radius: 10px;
+}
+.borderBlue {
+   border: solid 2px blue;
+   border-radius: 10px;
+}
+.borderGreen {
+   border: solid 2px Green;
+   border-radius: 10px;
+}
+/* color */
+.blue {
+   color: blue;
+}
+.green {
+   color: green;
+}
+/* display */
+.flexwrap {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.flexGrow1 {
+   flex-grow: 1;
+}
+.inlineBlock {
+   display: inline-block;
+}
+/* textAlign */
+.right {
+   text-align: right;
+}
+.left {
+   text-align: left;
+}
+.center {
+   text-align: center;
+}
+/* 骨格 */
+.content {
+   width: 90%;
+   max-width: 1500px;
+   margin: 20px auto;
+}
 .navbar {
    display: flex;
-   justify-content: space-around;
+   /* justify-content: space-around; */
    width: 100%;
    position: fixed;
+   z-index: 10;
 }

@@ -1,20 +1,140 @@
-.App {
-  text-align: center;
+/* width */
+.w50 {
+  display: inline-block;
+  width: 50px;
+  margin: 0 auto;
 }
-/* 骨格用 */
+.w100 {
+  display: inline-block;
+  width: 100px;
+  margin: 0 auto;
+}
+.w200 {
+  display: inline-block;
+  width: 200px;
+  margin: 0 auto;
+}
+.w300 {
+display: inline-block;
+width: 300px;
+margin: 0 auto;
+}
+.w400 {
+display: inline-block;
+width: 400px;
+margin: 0 auto;
+}
+.w450 {
+display: inline-block;
+width: 450px;
+margin: 0 auto;
+}
+.w500 {
+display: inline-block;
+width: 500px;
+margin: 0 auto;
+}
+
+/* padding */
+.padding5 {padding: 5px;}
+.padding10 {padding: 10px;}
+.padding20 {padding: 20px;}
+.padding1020 {padding: 10px 20px;}
+
+/* margin */
+.marginAuto {margin: 0 auto;}
+.margin5 {margin: 5px;}
+.margin05 {margin: 0 5px;}
+.margin10 {margin: 10px;}
+
+/* 背景設定用 */
+.back-grey {background-color: rgb(240, 240, 240);}
+.back-white {background-color: white;}
+/* .back- {background-color: ;} */
+
+/* border */
+.border {
+  border-radius: 10px;
+}
+.borderBlack {
+  border: solid 2px black;
+  border-radius: 10px;
+}
+.borderBlue {
+  border: solid 2px blue;
+  border-radius: 10px;
+}
+.borderGreen {
+  border: solid 2px Green;
+  border-radius: 10px;
+}
+/* .border {
+  border: solid px ;
+  border-radius: 10px;
+} */
+
+/* color */
+.blue {color: blue;}
+.green{color: green;}
+/* . {color: ;} */
+
+/* display */
 .flexwrap {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.flexGrow1 {flex-grow: 1;}
+.inlineBlock {
+  display: inline-block;
+}
+
+/* textAlign */
+.right {text-align: right;}
+.left {text-align: left;}
+.center {text-align: center;}
+
+/* position */
+.relative {position: relative;}
+.absolute {
+  position: absolute;
+  right: 50px;
+  top: 5px;
+}
+.absolute2 {
+  position: absolute;
+  bottom: 10px;
+}
+
+/* 骨格 */
 .content {
   width: 90%;
-  max-width: 800px;
+  max-width: 1500px;
   margin: 20px auto;
 }
-.w45 {
-  width: 45%;
+.App {
+  text-align: center;
 }
 .blank {
   height: 50px;
+}
+/* じかあて */
+table {
+  border: solid 1px black;
+  width: 100%;
+  table-layout: fixed;
+}
+th {
+  padding: 10px;
+  border: solid 1px black;
+}
+td {
+  padding: 10px;
+  border: solid 1px black;
+}
+.card h2 {
+  padding: 10px;
+}
+.card p {
+  padding: 5px;
 }

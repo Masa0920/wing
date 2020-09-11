@@ -1,37 +1,137 @@
 .ITT {
-   width: 200px;
-   border: solid 2px black;
-   border-radius: 20px;
+  width: 200px;
+  border: solid 2px black;
+  border-radius: 20px;
 }
-// 文字の色指定用
+/* width */
+.w50 {
+  display: inline-block;
+  width: 50px;
+  margin: 0 auto;
+}
+.w100 {
+  display: inline-block;
+  width: 100px;
+  margin: 0 auto;
+}
+.w200 {
+  display: inline-block;
+  width: 200px;
+  margin: 0 auto;
+}
+.w250 {
+  display: inline-block;
+  width: 250px;
+  margin: 0 auto;
+}
+.w300 {
+display: inline-block;
+width: 300px;
+margin: 0 auto;
+}
+.w400 {
+display: inline-block;
+width: 400px;
+margin: 0 auto;
+}
+.w450 {
+display: inline-block;
+width: 450px;
+margin: 0 auto;
+}
+.w500 {
+display: inline-block;
+width: 500px;
+margin: 0 auto;
+}
+/* padding */
+.padding5 {
+padding: 5px;
+}
+.padding10 {
+padding: 10px;
+}
+.padding20 {
+padding: 20px;
+}
+.padding1020 {
+  padding: 10px 20px;
+}
+/* margin */
+.marginAuto {
+  margin: 0 auto;
+}
+.margin5 {
+margin: 5px;
+}
+.margin05 {
+margin: 0 5px;
+}
+.margin10 {
+margin: 10px;
+}
+/* 背景設定用 */
+/* .back- {
+background-color: ;
+} */
+.back-grey {
+background-color: rgb(240, 240, 240);
+}
+.back-white {
+background-color: white;
+}
+/* border */
+/* .border {
+  border: solid px ;
+  border-radius: 10px;
+} */
+.borderBlack {
+  border: solid 2px black;
+  border-radius: 10px;
+}
+.borderBlue {
+  border: solid 2px blue;
+  border-radius: 10px;
+}
+.borderGreen {
+  border: solid 2px Green;
+  border-radius: 10px;
+}
+/* color */
+/* . {
+  color: ;
+} */
 .blue {
-  color: #007cc5;
+  color: blue;
 }
 .green {
   color: green;
 }
-.white {
-  color: white;
+/* display */
+.flexwrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
-// 背景色指定用
-.back-blue {
-  background-color: #007cc5;
+.flexGrow1 {
+  flex-grow: 1;
 }
-.back-skyblue {
-  background-color: #b5dff7;
+.inlineBlock {
+  display: inline-block;
 }
-.back-grey {
-  background-color: #f5f5f5;
+/* textAlign */
+.right {
+  text-align: right;
 }
-.back-grey2 {
-  background-color: silver;
+.left {
+  text-align: left;
 }
-.back-white {
-  background-color: white;
+.center {
+  text-align: center;
 }
-.back-green {
-  background-color: green;
-}
-.back-greenyellow {
-  background-color: greenyellow;
+/* 骨格 */
+.content {
+  width: 90%;
+  max-width: 1500px;
+  margin: 20px auto;
 }

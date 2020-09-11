@@ -3,9 +3,9 @@ import '../static/css/ITT.css'
 
 const ITT = (props) => {
    return (
-      <div className="ITT" >
-         <h2> {props.title} </h2>
-         <p> {props.text} </p>
+      <div className="w250 borderBlack" >
+         <h2 className="padding10" > {props.title} </h2>
+         <p className="padding10"> {props.text} </p>
       </div>
    )
 }
