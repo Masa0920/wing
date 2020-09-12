@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Navbar from './screens/Navbar';
 import ITT from './components/ITT';
+import WingLogo from "../src/static/images/logo.png"
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navbar/>
       <div className="blank" ></div>
       <div className="blank" ></div>
+      <img className="w100" src={WingLogo} alt="" />
       <h1>個別指導をどこででも</h1>
       {/* <div className="blank" ></div> */}
       <div className="" >
@@ -59,10 +61,10 @@ function App() {
       <div className="blank" ></div>
 
       <div className="flexwrap content" >
-        <ITT title="24時まで対応" text="習い事・部活動で忙しいですか？Wingなら24時まで授業が可能。晩ごはんを食べたあと、自室で・リビングで個別授業を受講できます。" />
-        <ITT title="指導報告書" text="指導内容・単元の理解度・宿題などを記載したレポートを授業後、保護者様のメールアドレスへ送付致します。" />
-        <ITT title="スマホで受講" text="PC・タブレット端末だけでなく、スマートフォンでの受講も可能。機材を新しく用意する必要がないため、手軽に始められます。" />
-        <ITT title="時間・回数調整が容易" text="授業時間は15分単位で予約でき、月の授業回数も自由に調整できます。また、テスト直前に授業を増やす等のご相談もOK。" />
+        <ITT icon="far fa-moon" title="24時まで対応" text="習い事・部活動で忙しいですか？Wingなら24時まで授業が可能。晩ごはんを食べたあと、自室で・リビングで個別授業を受講できます。" />
+        <ITT icon="far fa-file-alt" title="指導報告書" text="指導内容・単元の理解度・宿題などを記載したレポートを授業後、保護者様のメールアドレスへ送付致します。" />
+        <ITT icon="fas fa-mobile-alt" title="スマホで受講" text="PC・タブレット端末だけでなく、スマートフォンでの受講も可能。機材を新しく用意する必要がないため、手軽に始められます。" />
+        <ITT icon="far fa-calendar-check" title="時間・回数調整が容易" text="授業時間は15分単位で予約でき、月の授業回数も自由に調整できます。また、テスト直前に授業を増やす等のご相談もOK。" />
       </div>
 
       <div className="blank" ></div>

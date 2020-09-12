@@ -1,10 +1,12 @@
 import React from 'react'
 import '../static/css/Navbar.css'
+import WingLogo from "../static/images/logo.png"
 
 const Navbar = () => {
    return (
       <div className="navbar back-grey" >
          <div className="content flexwrap" >
+            <img className="w50 imgContain" src={WingLogo} alt="" />
             <p className="inlineBlock padding1020" >ホーム</p>
             <p className="inlineBlock padding1020" >個別指導</p>
             <p className="inlineBlock padding1020" >自習室</p>

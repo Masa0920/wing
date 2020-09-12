@@ -78,6 +78,19 @@ margin: 0 auto;
 .green{color: green;}
 /* . {color: ;} */
 
+/* fontsize */
+.fontSizeSmall {
+  font-size: 14px;
+}
+.fontSizeh2 {
+  font-size: 24px;
+}
+.fontSizeh1 {
+  font-size: 32px;
+}
+.fontSize100 {
+  font-size: 100px;
+}
 /* display */
 .flexwrap {
   display: flex;
@@ -112,6 +125,13 @@ margin: 0 auto;
   max-width: 1500px;
   margin: 20px auto;
 }
+.imgContain {
+  object-fit: contain;
+}
+.imgCover {
+  object-fit: cover;
+}
+
 .App {
   text-align: center;
 }
