@@ -3,8 +3,12 @@ import './App.css';
 import Navbar from './screens/Navbar';
 import ITT from './components/ITT';
 import WingLogo from "../src/static/images/logo.png"
+import Detail from './components/Detail';
+import Modal from './components/Modal';
+import Test from './components/Test';
 
 function App() {
+
   return (
     <div className="App">
       <Navbar/>
@@ -26,7 +30,7 @@ function App() {
           <p className="margin10" >もう、余計なことにエネルギーを使わなくて大丈夫。勉強にエネルギーを集中させよう。</p>
         </div>
 
-        <div className="w450" >
+        <div className="w450 table1" >
           <table className="" cellSpacing="0" >
             <tbody>
               <tr>
@@ -72,7 +76,8 @@ function App() {
       <div className="back-grey border content padding20" >
         <div className="flexwrap relative" >
           <h2 className="margin10">料金</h2>
-          <p className="absolute padding10 borderBlack" >料金計算</p>
+          <Modal/>
+          <Test/>
         </div>
 
         <div className="flexwrap" >
@@ -83,7 +88,7 @@ function App() {
             <p>授業料：500円/15分</p>
             <p>準備費：200円/回</p>
             <p>自分で勉強が進められる方等、宿題の管理や、サポートが不要な方向きのプランです。</p>
-            <p className="borderBlack" >詳細を表示</p>
+            <Detail/>
           </div>
           <div className="w300 padding20 back-white border card " >
             <h2>Standard</h2>
@@ -92,7 +97,7 @@ function App() {
             <p>授業料：550円/15分</p>
             <p>準備費：200円/回</p>
             <p>授業時間以外にも担当講師に質問</p>
-            <p className="borderBlack" >詳細を表示</p>
+            <Detail/>
           </div>
           <div className="w300 padding20 back-white border card" >
             <h2>Premium</h2>
@@ -101,7 +106,7 @@ function App() {
             <p>授業料：600円/15分</p>
             <p>準備費：200円/回</p>
             <p>授業時間以外にも担当講師に質問</p>
-            <p className="borderBlack" >詳細を表示</p>
+            <Detail/>
           </div>
         </div>
 
